@@ -208,7 +208,7 @@ gh auth login
 Create or update a release asset after building a version with:
 
 ```powershell
-& "C:\Program Files\GitHub CLI\gh.exe" release create v0.1.5 ".\dist\Storm Competitor Analysis.exe" --repo Stormmurdock26/Competitors-analysis- --title "v0.1.5" --notes "Release v0.1.5"
+& "C:\Program Files\GitHub CLI\gh.exe" release create v0.1.6 ".\dist\Storm Competitor Analysis.exe" --repo Stormmurdock26/Competitors-analysis- --title "v0.1.6" --notes "Release v0.1.6"
 ```
 
 Packaging notes:
