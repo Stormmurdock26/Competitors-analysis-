@@ -1,0 +1,27 @@
+[project]
+name = "storm-comp-analysis"
+version = "0.1.1"
+description = "Desktop workflow for scraping competitor products and generating competitor analysis workbooks."
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "lxml>=5.2",
+    "openpyxl>=3.1",
+    "pillow>=10.0",
+    "pyside6>=6.7",
+    "requests>=2.32",
+]
+
+[project.scripts]
+storm-comp-analysis = "storm_app.main:main"
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["storm_app*"]
+exclude = ["config*", "scripts*", "scraper_outputs*"]
+
+[tool.uv]
+package = true

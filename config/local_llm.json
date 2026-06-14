@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "provider": "ollama",
+  "base_url": "http://localhost:11434",
+  "model": "gemma4:e4b",
+  "temperature": 0.0,
+  "num_ctx": 8192,
+  "timeout_seconds": 120,
+  "max_feature_rows": 5,
+  "notes": [
+    "Ollama automatically uses available GPU acceleration when supported by the model/runtime.",
+    "If GPU acceleration is unavailable, Ollama falls back to CPU/RAM.",
+    "The app requires Gemma 4 E4B specifically: gemma4:e4b."
+  ]
+}

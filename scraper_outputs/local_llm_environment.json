@@ -1,0 +1,9 @@
+﻿{
+  "ollama": {
+    "required_model": "gemma4:e4b",
+    "notes": "Model inventory intentionally omitted from committed report."
+  },
+  "gpu": {
+    "notes": "Run scripts/check_local_llm.py locally for current GPU and Ollama diagnostics."
+  }
+}

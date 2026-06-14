@@ -1,0 +1,226 @@
+{
+  "brands": [
+    {
+      "name": "Turtle Beach",
+      "patterns": [
+        "turtle beach"
+      ]
+    },
+    {
+      "name": "VX Gaming",
+      "patterns": [
+        "vx gaming",
+        "vx stealth"
+      ]
+    },
+    {
+      "name": "SteelSeries",
+      "patterns": [
+        "steelseries"
+      ]
+    },
+    {
+      "name": "Cooler Master",
+      "patterns": [
+        "cooler master"
+      ]
+    },
+    {
+      "name": "Redragon",
+      "patterns": [
+        "redragon"
+      ]
+    },
+    {
+      "name": "Logitech",
+      "patterns": [
+        "logitech"
+      ]
+    },
+    {
+      "name": "Razer",
+      "patterns": [
+        "razer"
+      ]
+    },
+    {
+      "name": "VolkanoG",
+      "patterns": [
+        "volkanog"
+      ]
+    },
+    {
+      "name": "Acer",
+      "patterns": [
+        "acer"
+      ]
+    },
+    {
+      "name": "Rapoo",
+      "patterns": [
+        "rapoo"
+      ]
+    },
+    {
+      "name": "JBL",
+      "patterns": [
+        "jbl"
+      ]
+    },
+    {
+      "name": "Maverick",
+      "patterns": [
+        "maverick"
+      ]
+    },
+    {
+      "name": "Trust",
+      "patterns": [
+        "trust"
+      ]
+    },
+    {
+      "name": "Corsair",
+      "patterns": [
+        "corsair"
+      ]
+    },
+    {
+      "name": "HyperX",
+      "patterns": [
+        "hyperx"
+      ]
+    },
+    {
+      "name": "MSI",
+      "patterns": [
+        "msi"
+      ]
+    },
+    {
+      "name": "Asus",
+      "patterns": [
+        "asus"
+      ]
+    },
+    {
+      "name": "Lenovo",
+      "patterns": [
+        "lenovo"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "patterns": [
+        "microsoft"
+      ]
+    },
+    {
+      "name": "Dell",
+      "patterns": [
+        "dell"
+      ]
+    },
+    {
+      "name": "HP",
+      "patterns": [
+        "hp"
+      ]
+    },
+    {
+      "name": "Thrustmaster",
+      "patterns": [
+        "thrustmaster"
+      ]
+    }
+  ],
+  "own_brands": [
+    "Logitech",
+    "VX Gaming",
+    "VolkanoG"
+  ],
+  "category_rules": [
+    {
+      "category": "Combos",
+      "match_any": [
+        "combo",
+        "3-in-1",
+        "4-in-1",
+        "bundle"
+      ]
+    },
+    {
+      "category": "Combos",
+      "match_all": [
+        "keyboard",
+        "mouse"
+      ]
+    },
+    {
+      "category": "Wireless headsets",
+      "match_any": [
+        "headset",
+        "headphones",
+        "kraken",
+        "blackshark"
+      ],
+      "match_any_also": [
+        "wireless"
+      ]
+    },
+    {
+      "category": "Wired headsets",
+      "match_any": [
+        "headset",
+        "headphones",
+        "kraken",
+        "blackshark"
+      ]
+    },
+    {
+      "category": "Mousepads",
+      "match_any": [
+        "mousepad",
+        "mouse pad",
+        "gaming pad"
+      ]
+    },
+    {
+      "category": "Wireless mouse",
+      "match_any": [
+        "mouse",
+        "viper"
+      ],
+      "match_any_also": [
+        "wireless",
+        "lightspeed",
+        "hyperspeed"
+      ]
+    },
+    {
+      "category": "Wired mouse",
+      "match_any": [
+        "mouse",
+        "deathadder",
+        "basilisk",
+        "cobra",
+        "rival"
+      ]
+    },
+    {
+      "category": "Racing shifters",
+      "match_any": [
+        "shifter"
+      ]
+    },
+    {
+      "category": "Racing wheels",
+      "match_any": [
+        "racing wheel",
+        "t248",
+        "tx leather"
+      ]
+    }
+  ],
+  "default_category": "Uncategorized"
+}

@@ -1,0 +1,111 @@
+{
+  "input": {
+    "urls": [
+      "https://www.incredible.co.za/products/gaming/accessories?cat=367564&product_list_dir=asc"
+    ],
+    "output": "scraper_outputs\\app_backend_e2e_cat_367564.xlsx",
+    "append_to": "",
+    "feature_alignment": "llm",
+    "brand_rules": [
+      [
+        "Thrustmaster",
+        "competitor"
+      ]
+    ],
+    "category_rules": [
+      [
+        "Racing shifters",
+        "shifter"
+      ],
+      [
+        "Racing wheels",
+        "racing wheel,t248,tx leather"
+      ]
+    ]
+  },
+  "before_rules": {
+    "products": 8,
+    "brands": {
+      "Logitech": 4,
+      "Thrustmaster": 4
+    },
+    "categories": {
+      "Racing shifters": 3,
+      "Racing wheels": 5
+    },
+    "unknown_brands": {},
+    "uncategorized_products": [],
+    "link_summaries": [
+      {
+        "source_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367564&product_list_dir=asc",
+        "product_count": 8,
+        "brand_counts": {
+          "Logitech": 4,
+          "Thrustmaster": 4
+        },
+        "category_counts": {
+          "Racing wheels": 5,
+          "Racing shifters": 3
+        },
+        "validation": {
+          "product_count": 8,
+          "brand_total": 8,
+          "category_total": 8,
+          "unknown_brand_count": 0,
+          "uncategorized_count": 0,
+          "all_products_have_brand": true,
+          "all_products_have_category": true,
+          "is_valid": true
+        }
+      }
+    ]
+  },
+  "after_rules": {
+    "products": 8,
+    "brands": {
+      "Logitech": 4,
+      "Thrustmaster": 4
+    },
+    "categories": {
+      "Racing shifters": 3,
+      "Racing wheels": 5
+    },
+    "unknown_brands": {},
+    "uncategorized_products": [],
+    "link_summaries": [
+      {
+        "source_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367564&product_list_dir=asc",
+        "product_count": 8,
+        "brand_counts": {
+          "Logitech": 4,
+          "Thrustmaster": 4
+        },
+        "category_counts": {
+          "Racing wheels": 5,
+          "Racing shifters": 3
+        },
+        "validation": {
+          "product_count": 8,
+          "brand_total": 8,
+          "category_total": 8,
+          "unknown_brand_count": 0,
+          "uncategorized_count": 0,
+          "all_products_have_brand": true,
+          "all_products_have_category": true,
+          "is_valid": true
+        }
+      }
+    ]
+  },
+  "workbook": {
+    "path": "scraper_outputs\\app_backend_e2e_cat_367564.xlsx",
+    "rows": 27,
+    "products": 8,
+    "product_hyperlinks": 8,
+    "embedded_images": 8,
+    "categories": {
+      "Racing shifters": 3,
+      "Racing wheels": 5
+    }
+  }
+}

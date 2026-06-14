@@ -1,0 +1,81 @@
+{
+  "output": "scraper_outputs\\app_backend_e2e_cat_367564.xlsx",
+  "workbook_mode": "fresh",
+  "append_to": "",
+  "own_brands": [
+    "Logitech",
+    "VX Gaming",
+    "VolkanoG"
+  ],
+  "input_links": [
+    "https://www.incredible.co.za/products/gaming/accessories?cat=367564&product_list_dir=asc"
+  ],
+  "link_summaries": [
+    {
+      "source_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367564&product_list_dir=asc",
+      "validation": {
+        "product_count": 8,
+        "brand_total": 8,
+        "category_total": 8,
+        "unknown_brand_count": 0,
+        "uncategorized_count": 0,
+        "all_products_have_brand": true,
+        "all_products_have_category": true,
+        "is_valid": true
+      },
+      "brand_counts": {
+        "Logitech": 4,
+        "Thrustmaster": 4
+      },
+      "category_counts": {
+        "Racing wheels": 5,
+        "Racing shifters": 3
+      },
+      "product_count": 8
+    }
+  ],
+  "feature_alignment": {
+    "mode": "llm",
+    "llm_config": "C:\\Users\\woute\\personal_projects\\Storm_comp_analysis\\config\\local_llm.json",
+    "runs": [
+      {
+        "category": "Racing shifters",
+        "source": "fallback",
+        "warnings": [
+          "Used fallback alignment: 404 Client Error: Not Found for url: http://localhost:11434/api/chat"
+        ],
+        "products": [
+          "Logitech Driving Force Shifter",
+          "Thrustmaster TH8S Racing Shifter",
+          "Thrustmaster TH8A Add-on Shifter"
+        ],
+        "display_category": "Racing shifters",
+        "row": 3
+      },
+      {
+        "category": "Racing wheels",
+        "source": "fallback",
+        "warnings": [
+          "Used fallback alignment: 404 Client Error: Not Found for url: http://localhost:11434/api/chat"
+        ],
+        "products": [
+          "Logitech G923 Racing Wheel PS4, PS5 And PC",
+          "Logitech G923 Racing Wheel Xbox + PC",
+          "Logitech G920 Racing Wheel for Xbox Series X|S, Xbox One\u2122 and PC",
+          "Thrustmaster T248 for Xbox & PC",
+          "Thrustmaster TX Leather for Xbox & PC"
+        ],
+        "display_category": "Racing wheels",
+        "row": 16
+      }
+    ]
+  },
+  "combined_categories": {
+    "Racing shifters": 3,
+    "Racing wheels": 5
+  },
+  "combined_brands": {
+    "Logitech": 4,
+    "Thrustmaster": 4
+  }
+}

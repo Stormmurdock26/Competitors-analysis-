@@ -1,0 +1,1811 @@
+[
+  {
+    "scraper": "beautifulsoup",
+    "status": "ok",
+    "elapsed_seconds": 0.104,
+    "product_count": 35,
+    "field_score": 0.886,
+    "notes": "",
+    "products": [
+      {
+        "name": "Redragon FLICK M Mousepad 270X320 - Black",
+        "sku": "000000000010280028",
+        "final_price": "R79",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-m-mousepad-270x320-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p030_wr_01_ecommerce_1347.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387834"
+      },
+      {
+        "name": "VX Gaming Hera Series Gaming Mouse",
+        "sku": "000000000010296485",
+        "final_price": "R99",
+        "old_price": "R249",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/vx-gaming-hera-series-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_143_bk_vx_gaming_hera_series_12000dpi_7_button_gaming_mouse_1_1_ecommerce_0306.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1416547"
+      },
+      {
+        "name": "REDRAGON KUNLUN L GAMING PAD",
+        "sku": "000000000010111248",
+        "final_price": "R149",
+        "old_price": "R229",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-kunlun-l-gaming-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10111248_inc_ecommerce_5415.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25450"
+      },
+      {
+        "name": "Redragon M616 Trident 10000DPI RGB Gaming Mouse \u2013 Black",
+        "sku": "000000000010302724",
+        "final_price": "R149",
+        "old_price": "R219",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-m616-trident-10000dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376727480_rd_m616_rgb__1__ecommerce_74c3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1425835"
+      },
+      {
+        "name": "Redragon FLICK L Gaming Mousepad 400X450 - Black",
+        "sku": "000000000010279999",
+        "final_price": "R169",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-l-gaming-mousepad-400x450-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p031_wr_01_ecommerce_3bab.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387819"
+      },
+      {
+        "name": "Redragon Griffin 7200dpi Gaming Mouse",
+        "sku": "000000000010119185",
+        "final_price": "R189",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-griffin-7200dpi-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119185_inc_ecommerce_f4d0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25764"
+      },
+      {
+        "name": "Redragon NEMEANLION 2 7200DPI Gaming Mouse Black",
+        "sku": "000000000010129083",
+        "final_price": "R199",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-nemeanlion-2-7200dpi-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/m/6/m602_1_01_ecommerce_0c85.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "58498"
+      },
+      {
+        "name": "Acer Predator PMP010 Medium Gaming Mousepad",
+        "sku": "000000000010287741",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/acer-predator-pmp010-medium-gaming-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/p/r/predator_fabric_mousepad_01.tif_custom_ecommerce_673b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1405615"
+      },
+      {
+        "name": "Redragon FLICK XL Gaming Mousepad 400X900 - Black",
+        "sku": "000000000010280027",
+        "final_price": "R199",
+        "old_price": "R279",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-flick-xl-gaming-mousepad-400x900-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p032_wr_01_ecommerce_4f44.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387833"
+      },
+      {
+        "name": "VX Gaming Harmonia Extra Wide RGB Mousepad 800x300x4mm",
+        "sku": "000000000010281729",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-harmonia-extra-wide-rgb-mousepad-800x300x4mm",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_174_bk_vx_gaming_harmonia_rgb_mousepad_extra_wide_800x300x4mm_1_1__2__998a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1395114"
+      },
+      {
+        "name": "Rapoo VT900 Gaming Wireless & Wired Optical Mouse",
+        "sku": "",
+        "final_price": "R219",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/rapoo-vt900-gaming-wireless-wired-optical-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/t/vt900_aab4.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387606"
+      },
+      {
+        "name": "Redragon Gainer M656 Wireless Gaming Mouse 4000DPI Black",
+        "sku": "000000000010302680",
+        "final_price": "R279",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-gainer-m656-wireless-gaming-mouse-4000dpi-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376707031_rd_m656__1__ecommerce_7320.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1426082"
+      },
+      {
+        "name": "Razer Basilisk X Hyperspeed Dual-mode Wireless Gaming Mouse",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/razer-basilisk-x-hyperspeed-dual-mode-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/a/razer_basilisk_x_hyperspeed_dual_mode_wireless_gaming_mouse_01__1__ecommerce_07cd.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "36515"
+      },
+      {
+        "name": "Steelseries Rival 5",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/steelseries-rival-5",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/o/r/original_rival_5_e_commerce_1702.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "638055"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - Black",
+        "sku": "000000000010129772",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/i/lightspeed_g102_black_1_ecommerce_ec75.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60792"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - White",
+        "sku": "000000000010129794",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/9/1/910_005824_logitech_g102_lightsync_white_02_e_commerce_removebg_preview_ecommer_070a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60795"
+      },
+      {
+        "name": "Redragon STORM M808 12400DPI RGB Gaming Mouse - Black",
+        "sku": "000000000010131827",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-storm-m808-12400dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m808_rgb_wr_01_ecommerce_d6a8.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "72245"
+      },
+      {
+        "name": "VX Gaming Artemis series 3-in-1 Combo Keyboard, Mouse, Mousepad",
+        "sku": "000000000010201709",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-artemis-series-3-in-1-combo-keyboard-mouse-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_144_bk_v2__vx_gaming_artemis_series_3_in_1_combo_1_2_e_commerce_aea8.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "86093"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Gaming Mouse Lilac",
+        "sku": "000000000010292467",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1_ecommerce_da5a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412377"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Mouse Blue",
+        "sku": "000000000010292474",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1__2__ecommerce_b244.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412381"
+      },
+      {
+        "name": "Logitech Cloth G240 Gaming Mouse Pad",
+        "sku": "000000000010288943",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-cloth-g240-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/g/2/g240___1_ecommerce_b50c.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1409033"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gam Mouse Lilac",
+        "sku": "000000000010300031",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gam-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_lilac_1_ecommerce_edc7.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419442"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Blue",
+        "sku": "000000000010300035",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_blue_1_ecommerce_d797.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419444"
+      },
+      {
+        "name": "VX Gaming Heracles Series 4-in-1 Combo",
+        "sku": "000000000010175937",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-heracles-series-4-in-1-combo",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_147_bk_vx_gaming_heracles_series_4_in_1_combo_kb_mouse_pad_headset_1_1__1__e_1bb2.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "82874"
+      },
+      {
+        "name": "Redragon M810 TAIPAN PRO Wireless Gaming Mouse",
+        "sku": "000000000010293981",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m810-taipan-pro-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m810rgb_pro_wr_01_ecommerce_7b78.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1414179"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Black",
+        "sku": "000000000010300034",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_black_1_ecommerce_61ff.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419443"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse White",
+        "sku": "000000000010300040",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_white_1_ecommerce_933b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419448"
+      },
+      {
+        "name": "VolkanoG Arc SL Wireless Gaming Mouse",
+        "sku": "000000000010324542",
+        "final_price": "R499",
+        "old_price": "R599",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-sl-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_202_bk.1_ecommerce_6dca.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427574"
+      },
+      {
+        "name": "Logitech G502 Hero Mouse",
+        "sku": "000000000010119430",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/logitech-g502-hero-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119430_ecommerce_9969.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25765"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse Black",
+        "sku": "000000000010324571",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_bk.1_ecommerce_2123.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427597"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse White",
+        "sku": "000000000010324618",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_wt__1__ecommerce_9c6a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427608"
+      },
+      {
+        "name": "Logitech G840 XL Gaming Mouse Pad",
+        "sku": "000000000010133259",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g840-xl-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g840_ecommerce_f9f0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "80881"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse - Pink",
+        "sku": "000000000010301502",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-pink",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721976_rd_m916p_pro_1k_02_ecommerce_dc1d.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420955"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 White",
+        "sku": "000000000010301543",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721969_rd_m916w_pro_1k_01_ecommerce_91b3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420962"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 Black",
+        "sku": "000000000010301593",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721952_rd_m916_pro1_k_ecommerce_c578.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1421022"
+      }
+    ]
+  },
+  {
+    "scraper": "lxml",
+    "status": "ok",
+    "elapsed_seconds": 0.039,
+    "product_count": 35,
+    "field_score": 0.886,
+    "notes": "",
+    "products": [
+      {
+        "name": "Redragon FLICK M Mousepad 270X320 - Black",
+        "sku": "000000000010280028",
+        "final_price": "R79",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-m-mousepad-270x320-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p030_wr_01_ecommerce_1347.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387834"
+      },
+      {
+        "name": "VX Gaming Hera Series Gaming Mouse",
+        "sku": "000000000010296485",
+        "final_price": "R99",
+        "old_price": "R249",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/vx-gaming-hera-series-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_143_bk_vx_gaming_hera_series_12000dpi_7_button_gaming_mouse_1_1_ecommerce_0306.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1416547"
+      },
+      {
+        "name": "REDRAGON KUNLUN L GAMING PAD",
+        "sku": "000000000010111248",
+        "final_price": "R149",
+        "old_price": "R229",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-kunlun-l-gaming-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10111248_inc_ecommerce_5415.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25450"
+      },
+      {
+        "name": "Redragon M616 Trident 10000DPI RGB Gaming Mouse \u2013 Black",
+        "sku": "000000000010302724",
+        "final_price": "R149",
+        "old_price": "R219",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-m616-trident-10000dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376727480_rd_m616_rgb__1__ecommerce_74c3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1425835"
+      },
+      {
+        "name": "Redragon FLICK L Gaming Mousepad 400X450 - Black",
+        "sku": "000000000010279999",
+        "final_price": "R169",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-l-gaming-mousepad-400x450-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p031_wr_01_ecommerce_3bab.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387819"
+      },
+      {
+        "name": "Redragon Griffin 7200dpi Gaming Mouse",
+        "sku": "000000000010119185",
+        "final_price": "R189",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-griffin-7200dpi-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119185_inc_ecommerce_f4d0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25764"
+      },
+      {
+        "name": "Redragon NEMEANLION 2 7200DPI Gaming Mouse Black",
+        "sku": "000000000010129083",
+        "final_price": "R199",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-nemeanlion-2-7200dpi-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/m/6/m602_1_01_ecommerce_0c85.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "58498"
+      },
+      {
+        "name": "Acer Predator PMP010 Medium Gaming Mousepad",
+        "sku": "000000000010287741",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/acer-predator-pmp010-medium-gaming-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/p/r/predator_fabric_mousepad_01.tif_custom_ecommerce_673b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1405615"
+      },
+      {
+        "name": "Redragon FLICK XL Gaming Mousepad 400X900 - Black",
+        "sku": "000000000010280027",
+        "final_price": "R199",
+        "old_price": "R279",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-flick-xl-gaming-mousepad-400x900-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p032_wr_01_ecommerce_4f44.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387833"
+      },
+      {
+        "name": "VX Gaming Harmonia Extra Wide RGB Mousepad 800x300x4mm",
+        "sku": "000000000010281729",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-harmonia-extra-wide-rgb-mousepad-800x300x4mm",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_174_bk_vx_gaming_harmonia_rgb_mousepad_extra_wide_800x300x4mm_1_1__2__998a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1395114"
+      },
+      {
+        "name": "Rapoo VT900 Gaming Wireless & Wired Optical Mouse",
+        "sku": "",
+        "final_price": "R219",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/rapoo-vt900-gaming-wireless-wired-optical-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/t/vt900_aab4.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387606"
+      },
+      {
+        "name": "Redragon Gainer M656 Wireless Gaming Mouse 4000DPI Black",
+        "sku": "000000000010302680",
+        "final_price": "R279",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-gainer-m656-wireless-gaming-mouse-4000dpi-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376707031_rd_m656__1__ecommerce_7320.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1426082"
+      },
+      {
+        "name": "Razer Basilisk X Hyperspeed Dual-mode Wireless Gaming Mouse",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/razer-basilisk-x-hyperspeed-dual-mode-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/a/razer_basilisk_x_hyperspeed_dual_mode_wireless_gaming_mouse_01__1__ecommerce_07cd.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "36515"
+      },
+      {
+        "name": "Steelseries Rival 5",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/steelseries-rival-5",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/o/r/original_rival_5_e_commerce_1702.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "638055"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - Black",
+        "sku": "000000000010129772",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/i/lightspeed_g102_black_1_ecommerce_ec75.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60792"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - White",
+        "sku": "000000000010129794",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/9/1/910_005824_logitech_g102_lightsync_white_02_e_commerce_removebg_preview_ecommer_070a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60795"
+      },
+      {
+        "name": "Redragon STORM M808 12400DPI RGB Gaming Mouse - Black",
+        "sku": "000000000010131827",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-storm-m808-12400dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m808_rgb_wr_01_ecommerce_d6a8.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "72245"
+      },
+      {
+        "name": "VX Gaming Artemis series 3-in-1 Combo Keyboard, Mouse, Mousepad",
+        "sku": "000000000010201709",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-artemis-series-3-in-1-combo-keyboard-mouse-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_144_bk_v2__vx_gaming_artemis_series_3_in_1_combo_1_2_e_commerce_aea8.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "86093"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Gaming Mouse Lilac",
+        "sku": "000000000010292467",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1_ecommerce_da5a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412377"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Mouse Blue",
+        "sku": "000000000010292474",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1__2__ecommerce_b244.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412381"
+      },
+      {
+        "name": "Logitech Cloth G240 Gaming Mouse Pad",
+        "sku": "000000000010288943",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-cloth-g240-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/g/2/g240___1_ecommerce_b50c.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1409033"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gam Mouse Lilac",
+        "sku": "000000000010300031",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gam-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_lilac_1_ecommerce_edc7.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419442"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Blue",
+        "sku": "000000000010300035",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_blue_1_ecommerce_d797.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419444"
+      },
+      {
+        "name": "VX Gaming Heracles Series 4-in-1 Combo",
+        "sku": "000000000010175937",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-heracles-series-4-in-1-combo",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_147_bk_vx_gaming_heracles_series_4_in_1_combo_kb_mouse_pad_headset_1_1__1__e_1bb2.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "82874"
+      },
+      {
+        "name": "Redragon M810 TAIPAN PRO Wireless Gaming Mouse",
+        "sku": "000000000010293981",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m810-taipan-pro-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m810rgb_pro_wr_01_ecommerce_7b78.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1414179"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Black",
+        "sku": "000000000010300034",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_black_1_ecommerce_61ff.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419443"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse White",
+        "sku": "000000000010300040",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_white_1_ecommerce_933b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419448"
+      },
+      {
+        "name": "VolkanoG Arc SL Wireless Gaming Mouse",
+        "sku": "000000000010324542",
+        "final_price": "R499",
+        "old_price": "R599",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-sl-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_202_bk.1_ecommerce_6dca.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427574"
+      },
+      {
+        "name": "Logitech G502 Hero Mouse",
+        "sku": "000000000010119430",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/logitech-g502-hero-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119430_ecommerce_9969.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25765"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse Black",
+        "sku": "000000000010324571",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_bk.1_ecommerce_2123.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427597"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse White",
+        "sku": "000000000010324618",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_wt__1__ecommerce_9c6a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427608"
+      },
+      {
+        "name": "Logitech G840 XL Gaming Mouse Pad",
+        "sku": "000000000010133259",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g840-xl-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g840_ecommerce_f9f0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "80881"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse - Pink",
+        "sku": "000000000010301502",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-pink",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721976_rd_m916p_pro_1k_02_ecommerce_dc1d.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420955"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 White",
+        "sku": "000000000010301543",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721969_rd_m916w_pro_1k_01_ecommerce_91b3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420962"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 Black",
+        "sku": "000000000010301593",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721952_rd_m916_pro1_k_ecommerce_c578.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1421022"
+      }
+    ]
+  },
+  {
+    "scraper": "selectolax",
+    "status": "ok",
+    "elapsed_seconds": 0.01,
+    "product_count": 35,
+    "field_score": 0.886,
+    "notes": "",
+    "products": [
+      {
+        "name": "Redragon FLICK M Mousepad 270X320 - Black",
+        "sku": "000000000010280028",
+        "final_price": "R79",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-m-mousepad-270x320-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p030_wr_01_ecommerce_1347.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387834"
+      },
+      {
+        "name": "VX Gaming Hera Series Gaming Mouse",
+        "sku": "000000000010296485",
+        "final_price": "R99",
+        "old_price": "R249",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/vx-gaming-hera-series-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_143_bk_vx_gaming_hera_series_12000dpi_7_button_gaming_mouse_1_1_ecommerce_0306.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1416547"
+      },
+      {
+        "name": "REDRAGON KUNLUN L GAMING PAD",
+        "sku": "000000000010111248",
+        "final_price": "R149",
+        "old_price": "R229",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-kunlun-l-gaming-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10111248_inc_ecommerce_5415.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25450"
+      },
+      {
+        "name": "Redragon M616 Trident 10000DPI RGB Gaming Mouse \u2013 Black",
+        "sku": "000000000010302724",
+        "final_price": "R149",
+        "old_price": "R219",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-m616-trident-10000dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376727480_rd_m616_rgb__1__ecommerce_74c3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1425835"
+      },
+      {
+        "name": "Redragon FLICK L Gaming Mousepad 400X450 - Black",
+        "sku": "000000000010279999",
+        "final_price": "R169",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-l-gaming-mousepad-400x450-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p031_wr_01_ecommerce_3bab.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387819"
+      },
+      {
+        "name": "Redragon Griffin 7200dpi Gaming Mouse",
+        "sku": "000000000010119185",
+        "final_price": "R189",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-griffin-7200dpi-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119185_inc_ecommerce_f4d0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25764"
+      },
+      {
+        "name": "Redragon NEMEANLION 2 7200DPI Gaming Mouse Black",
+        "sku": "000000000010129083",
+        "final_price": "R199",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-nemeanlion-2-7200dpi-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/m/6/m602_1_01_ecommerce_0c85.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "58498"
+      },
+      {
+        "name": "Acer Predator PMP010 Medium Gaming Mousepad",
+        "sku": "000000000010287741",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/acer-predator-pmp010-medium-gaming-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/p/r/predator_fabric_mousepad_01.tif_custom_ecommerce_673b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1405615"
+      },
+      {
+        "name": "Redragon FLICK XL Gaming Mousepad 400X900 - Black",
+        "sku": "000000000010280027",
+        "final_price": "R199",
+        "old_price": "R279",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-flick-xl-gaming-mousepad-400x900-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p032_wr_01_ecommerce_4f44.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387833"
+      },
+      {
+        "name": "VX Gaming Harmonia Extra Wide RGB Mousepad 800x300x4mm",
+        "sku": "000000000010281729",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-harmonia-extra-wide-rgb-mousepad-800x300x4mm",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_174_bk_vx_gaming_harmonia_rgb_mousepad_extra_wide_800x300x4mm_1_1__2__998a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1395114"
+      },
+      {
+        "name": "Rapoo VT900 Gaming Wireless & Wired Optical Mouse",
+        "sku": "",
+        "final_price": "R219",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/rapoo-vt900-gaming-wireless-wired-optical-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/t/vt900_aab4.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387606"
+      },
+      {
+        "name": "Redragon Gainer M656 Wireless Gaming Mouse 4000DPI Black",
+        "sku": "000000000010302680",
+        "final_price": "R279",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-gainer-m656-wireless-gaming-mouse-4000dpi-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376707031_rd_m656__1__ecommerce_7320.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1426082"
+      },
+      {
+        "name": "Razer Basilisk X Hyperspeed Dual-mode Wireless Gaming Mouse",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/razer-basilisk-x-hyperspeed-dual-mode-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/a/razer_basilisk_x_hyperspeed_dual_mode_wireless_gaming_mouse_01__1__ecommerce_07cd.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "36515"
+      },
+      {
+        "name": "Steelseries Rival 5",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/steelseries-rival-5",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/o/r/original_rival_5_e_commerce_1702.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "638055"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - Black",
+        "sku": "000000000010129772",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/i/lightspeed_g102_black_1_ecommerce_ec75.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60792"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - White",
+        "sku": "000000000010129794",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/9/1/910_005824_logitech_g102_lightsync_white_02_e_commerce_removebg_preview_ecommer_070a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60795"
+      },
+      {
+        "name": "Redragon STORM M808 12400DPI RGB Gaming Mouse - Black",
+        "sku": "000000000010131827",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-storm-m808-12400dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m808_rgb_wr_01_ecommerce_d6a8.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "72245"
+      },
+      {
+        "name": "VX Gaming Artemis series 3-in-1 Combo Keyboard, Mouse, Mousepad",
+        "sku": "000000000010201709",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-artemis-series-3-in-1-combo-keyboard-mouse-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_144_bk_v2__vx_gaming_artemis_series_3_in_1_combo_1_2_e_commerce_aea8.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "86093"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Gaming Mouse Lilac",
+        "sku": "000000000010292467",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1_ecommerce_da5a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412377"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Mouse Blue",
+        "sku": "000000000010292474",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1__2__ecommerce_b244.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412381"
+      },
+      {
+        "name": "Logitech Cloth G240 Gaming Mouse Pad",
+        "sku": "000000000010288943",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-cloth-g240-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/g/2/g240___1_ecommerce_b50c.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1409033"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gam Mouse Lilac",
+        "sku": "000000000010300031",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gam-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_lilac_1_ecommerce_edc7.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419442"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Blue",
+        "sku": "000000000010300035",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_blue_1_ecommerce_d797.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419444"
+      },
+      {
+        "name": "VX Gaming Heracles Series 4-in-1 Combo",
+        "sku": "000000000010175937",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-heracles-series-4-in-1-combo",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_147_bk_vx_gaming_heracles_series_4_in_1_combo_kb_mouse_pad_headset_1_1__1__e_1bb2.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "82874"
+      },
+      {
+        "name": "Redragon M810 TAIPAN PRO Wireless Gaming Mouse",
+        "sku": "000000000010293981",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m810-taipan-pro-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m810rgb_pro_wr_01_ecommerce_7b78.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1414179"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Black",
+        "sku": "000000000010300034",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_black_1_ecommerce_61ff.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419443"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse White",
+        "sku": "000000000010300040",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_white_1_ecommerce_933b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419448"
+      },
+      {
+        "name": "VolkanoG Arc SL Wireless Gaming Mouse",
+        "sku": "000000000010324542",
+        "final_price": "R499",
+        "old_price": "R599",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-sl-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_202_bk.1_ecommerce_6dca.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427574"
+      },
+      {
+        "name": "Logitech G502 Hero Mouse",
+        "sku": "000000000010119430",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/logitech-g502-hero-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119430_ecommerce_9969.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25765"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse Black",
+        "sku": "000000000010324571",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_bk.1_ecommerce_2123.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427597"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse White",
+        "sku": "000000000010324618",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_wt__1__ecommerce_9c6a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427608"
+      },
+      {
+        "name": "Logitech G840 XL Gaming Mouse Pad",
+        "sku": "000000000010133259",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g840-xl-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g840_ecommerce_f9f0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "80881"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse - Pink",
+        "sku": "000000000010301502",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-pink",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721976_rd_m916p_pro_1k_02_ecommerce_dc1d.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420955"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 White",
+        "sku": "000000000010301543",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721969_rd_m916w_pro_1k_01_ecommerce_91b3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420962"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 Black",
+        "sku": "000000000010301593",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721952_rd_m916_pro1_k_ecommerce_c578.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1421022"
+      }
+    ]
+  },
+  {
+    "scraper": "scrapy_selector",
+    "status": "ok",
+    "elapsed_seconds": 0.42,
+    "product_count": 35,
+    "field_score": 0.886,
+    "notes": "",
+    "products": [
+      {
+        "name": "Redragon FLICK M Mousepad 270X320 - Black",
+        "sku": "000000000010280028",
+        "final_price": "R79",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-m-mousepad-270x320-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p030_wr_01_ecommerce_1347.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387834"
+      },
+      {
+        "name": "VX Gaming Hera Series Gaming Mouse",
+        "sku": "000000000010296485",
+        "final_price": "R99",
+        "old_price": "R249",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/vx-gaming-hera-series-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_143_bk_vx_gaming_hera_series_12000dpi_7_button_gaming_mouse_1_1_ecommerce_0306.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1416547"
+      },
+      {
+        "name": "REDRAGON KUNLUN L GAMING PAD",
+        "sku": "000000000010111248",
+        "final_price": "R149",
+        "old_price": "R229",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-kunlun-l-gaming-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10111248_inc_ecommerce_5415.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25450"
+      },
+      {
+        "name": "Redragon M616 Trident 10000DPI RGB Gaming Mouse \u2013 Black",
+        "sku": "000000000010302724",
+        "final_price": "R149",
+        "old_price": "R219",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-m616-trident-10000dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376727480_rd_m616_rgb__1__ecommerce_74c3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1425835"
+      },
+      {
+        "name": "Redragon FLICK L Gaming Mousepad 400X450 - Black",
+        "sku": "000000000010279999",
+        "final_price": "R169",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-l-gaming-mousepad-400x450-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p031_wr_01_ecommerce_3bab.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387819"
+      },
+      {
+        "name": "Redragon Griffin 7200dpi Gaming Mouse",
+        "sku": "000000000010119185",
+        "final_price": "R189",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-griffin-7200dpi-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119185_inc_ecommerce_f4d0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25764"
+      },
+      {
+        "name": "Redragon NEMEANLION 2 7200DPI Gaming Mouse Black",
+        "sku": "000000000010129083",
+        "final_price": "R199",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-nemeanlion-2-7200dpi-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/m/6/m602_1_01_ecommerce_0c85.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "58498"
+      },
+      {
+        "name": "Acer Predator PMP010 Medium Gaming Mousepad",
+        "sku": "000000000010287741",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/acer-predator-pmp010-medium-gaming-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/p/r/predator_fabric_mousepad_01.tif_custom_ecommerce_673b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1405615"
+      },
+      {
+        "name": "Redragon FLICK XL Gaming Mousepad 400X900 - Black",
+        "sku": "000000000010280027",
+        "final_price": "R199",
+        "old_price": "R279",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-flick-xl-gaming-mousepad-400x900-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p032_wr_01_ecommerce_4f44.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387833"
+      },
+      {
+        "name": "VX Gaming Harmonia Extra Wide RGB Mousepad 800x300x4mm",
+        "sku": "000000000010281729",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-harmonia-extra-wide-rgb-mousepad-800x300x4mm",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_174_bk_vx_gaming_harmonia_rgb_mousepad_extra_wide_800x300x4mm_1_1__2__998a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1395114"
+      },
+      {
+        "name": "Rapoo VT900 Gaming Wireless & Wired Optical Mouse",
+        "sku": "",
+        "final_price": "R219",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/rapoo-vt900-gaming-wireless-wired-optical-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/t/vt900_aab4.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387606"
+      },
+      {
+        "name": "Redragon Gainer M656 Wireless Gaming Mouse 4000DPI Black",
+        "sku": "000000000010302680",
+        "final_price": "R279",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-gainer-m656-wireless-gaming-mouse-4000dpi-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376707031_rd_m656__1__ecommerce_7320.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1426082"
+      },
+      {
+        "name": "Razer Basilisk X Hyperspeed Dual-mode Wireless Gaming Mouse",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/razer-basilisk-x-hyperspeed-dual-mode-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/a/razer_basilisk_x_hyperspeed_dual_mode_wireless_gaming_mouse_01__1__ecommerce_07cd.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "36515"
+      },
+      {
+        "name": "Steelseries Rival 5",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/steelseries-rival-5",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/o/r/original_rival_5_e_commerce_1702.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "638055"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - Black",
+        "sku": "000000000010129772",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/i/lightspeed_g102_black_1_ecommerce_ec75.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60792"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - White",
+        "sku": "000000000010129794",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/9/1/910_005824_logitech_g102_lightsync_white_02_e_commerce_removebg_preview_ecommer_070a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60795"
+      },
+      {
+        "name": "Redragon STORM M808 12400DPI RGB Gaming Mouse - Black",
+        "sku": "000000000010131827",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-storm-m808-12400dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m808_rgb_wr_01_ecommerce_d6a8.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "72245"
+      },
+      {
+        "name": "VX Gaming Artemis series 3-in-1 Combo Keyboard, Mouse, Mousepad",
+        "sku": "000000000010201709",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-artemis-series-3-in-1-combo-keyboard-mouse-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_144_bk_v2__vx_gaming_artemis_series_3_in_1_combo_1_2_e_commerce_aea8.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "86093"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Gaming Mouse Lilac",
+        "sku": "000000000010292467",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1_ecommerce_da5a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412377"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Mouse Blue",
+        "sku": "000000000010292474",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1__2__ecommerce_b244.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412381"
+      },
+      {
+        "name": "Logitech Cloth G240 Gaming Mouse Pad",
+        "sku": "000000000010288943",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-cloth-g240-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/g/2/g240___1_ecommerce_b50c.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1409033"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gam Mouse Lilac",
+        "sku": "000000000010300031",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gam-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_lilac_1_ecommerce_edc7.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419442"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Blue",
+        "sku": "000000000010300035",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_blue_1_ecommerce_d797.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419444"
+      },
+      {
+        "name": "VX Gaming Heracles Series 4-in-1 Combo",
+        "sku": "000000000010175937",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-heracles-series-4-in-1-combo",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_147_bk_vx_gaming_heracles_series_4_in_1_combo_kb_mouse_pad_headset_1_1__1__e_1bb2.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "82874"
+      },
+      {
+        "name": "Redragon M810 TAIPAN PRO Wireless Gaming Mouse",
+        "sku": "000000000010293981",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m810-taipan-pro-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m810rgb_pro_wr_01_ecommerce_7b78.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1414179"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Black",
+        "sku": "000000000010300034",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_black_1_ecommerce_61ff.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419443"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse White",
+        "sku": "000000000010300040",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_white_1_ecommerce_933b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419448"
+      },
+      {
+        "name": "VolkanoG Arc SL Wireless Gaming Mouse",
+        "sku": "000000000010324542",
+        "final_price": "R499",
+        "old_price": "R599",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-sl-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_202_bk.1_ecommerce_6dca.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427574"
+      },
+      {
+        "name": "Logitech G502 Hero Mouse",
+        "sku": "000000000010119430",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/logitech-g502-hero-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119430_ecommerce_9969.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25765"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse Black",
+        "sku": "000000000010324571",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_bk.1_ecommerce_2123.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427597"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse White",
+        "sku": "000000000010324618",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_wt__1__ecommerce_9c6a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427608"
+      },
+      {
+        "name": "Logitech G840 XL Gaming Mouse Pad",
+        "sku": "000000000010133259",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g840-xl-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g840_ecommerce_f9f0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "80881"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse - Pink",
+        "sku": "000000000010301502",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-pink",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721976_rd_m916p_pro_1k_02_ecommerce_dc1d.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420955"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 White",
+        "sku": "000000000010301543",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721969_rd_m916w_pro_1k_01_ecommerce_91b3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420962"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 Black",
+        "sku": "000000000010301593",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721952_rd_m916_pro1_k_ecommerce_c578.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1421022"
+      }
+    ]
+  },
+  {
+    "scraper": "playwright",
+    "status": "ok",
+    "elapsed_seconds": 8.021,
+    "product_count": 35,
+    "field_score": 0.886,
+    "notes": "",
+    "products": [
+      {
+        "name": "Redragon FLICK M Mousepad 270X320 - Black",
+        "sku": "000000000010280028",
+        "final_price": "R79",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-m-mousepad-270x320-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p030_wr_01_ecommerce_1347.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387834"
+      },
+      {
+        "name": "VX Gaming Hera Series Gaming Mouse",
+        "sku": "000000000010296485",
+        "final_price": "R99",
+        "old_price": "R249",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/vx-gaming-hera-series-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_143_bk_vx_gaming_hera_series_12000dpi_7_button_gaming_mouse_1_1_ecommerce_0306.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1416547"
+      },
+      {
+        "name": "REDRAGON KUNLUN L GAMING PAD",
+        "sku": "000000000010111248",
+        "final_price": "R149",
+        "old_price": "R229",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-kunlun-l-gaming-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10111248_inc_ecommerce_5415.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25450"
+      },
+      {
+        "name": "Redragon M616 Trident 10000DPI RGB Gaming Mouse \u2013 Black",
+        "sku": "000000000010302724",
+        "final_price": "R149",
+        "old_price": "R219",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-m616-trident-10000dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376727480_rd_m616_rgb__1__ecommerce_74c3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1425835"
+      },
+      {
+        "name": "Redragon FLICK L Gaming Mousepad 400X450 - Black",
+        "sku": "000000000010279999",
+        "final_price": "R169",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-flick-l-gaming-mousepad-400x450-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p031_wr_01_ecommerce_3bab.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387819"
+      },
+      {
+        "name": "Redragon Griffin 7200dpi Gaming Mouse",
+        "sku": "000000000010119185",
+        "final_price": "R189",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-griffin-7200dpi-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119185_inc_ecommerce_f4d0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25764"
+      },
+      {
+        "name": "Redragon NEMEANLION 2 7200DPI Gaming Mouse Black",
+        "sku": "000000000010129083",
+        "final_price": "R199",
+        "old_price": "R299",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-nemeanlion-2-7200dpi-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/m/6/m602_1_01_ecommerce_0c85.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "58498"
+      },
+      {
+        "name": "Acer Predator PMP010 Medium Gaming Mousepad",
+        "sku": "000000000010287741",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/acer-predator-pmp010-medium-gaming-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/p/r/predator_fabric_mousepad_01.tif_custom_ecommerce_673b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1405615"
+      },
+      {
+        "name": "Redragon FLICK XL Gaming Mousepad 400X900 - Black",
+        "sku": "000000000010280027",
+        "final_price": "R199",
+        "old_price": "R279",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/redragon-flick-xl-gaming-mousepad-400x900-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_p032_wr_01_ecommerce_4f44.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387833"
+      },
+      {
+        "name": "VX Gaming Harmonia Extra Wide RGB Mousepad 800x300x4mm",
+        "sku": "000000000010281729",
+        "final_price": "R199",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-harmonia-extra-wide-rgb-mousepad-800x300x4mm",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_174_bk_vx_gaming_harmonia_rgb_mousepad_extra_wide_800x300x4mm_1_1__2__998a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1395114"
+      },
+      {
+        "name": "Rapoo VT900 Gaming Wireless & Wired Optical Mouse",
+        "sku": "",
+        "final_price": "R219",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/rapoo-vt900-gaming-wireless-wired-optical-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/t/vt900_aab4.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1387606"
+      },
+      {
+        "name": "Redragon Gainer M656 Wireless Gaming Mouse 4000DPI Black",
+        "sku": "000000000010302680",
+        "final_price": "R279",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-gainer-m656-wireless-gaming-mouse-4000dpi-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376707031_rd_m656__1__ecommerce_7320.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1426082"
+      },
+      {
+        "name": "Razer Basilisk X Hyperspeed Dual-mode Wireless Gaming Mouse",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/razer-basilisk-x-hyperspeed-dual-mode-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/a/razer_basilisk_x_hyperspeed_dual_mode_wireless_gaming_mouse_01__1__ecommerce_07cd.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "36515"
+      },
+      {
+        "name": "Steelseries Rival 5",
+        "sku": "",
+        "final_price": "R299",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/steelseries-rival-5",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/o/r/original_rival_5_e_commerce_1702.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "638055"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - Black",
+        "sku": "000000000010129772",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/i/lightspeed_g102_black_1_ecommerce_ec75.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60792"
+      },
+      {
+        "name": "Logitech G102 Lightsync Gaming Mouse - White",
+        "sku": "000000000010129794",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/9/1/910_005824_logitech_g102_lightsync_white_02_e_commerce_removebg_preview_ecommer_070a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "60795"
+      },
+      {
+        "name": "Redragon STORM M808 12400DPI RGB Gaming Mouse - Black",
+        "sku": "000000000010131827",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-storm-m808-12400dpi-rgb-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m808_rgb_wr_01_ecommerce_d6a8.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "72245"
+      },
+      {
+        "name": "VX Gaming Artemis series 3-in-1 Combo Keyboard, Mouse, Mousepad",
+        "sku": "000000000010201709",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-artemis-series-3-in-1-combo-keyboard-mouse-mousepad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_144_bk_v2__vx_gaming_artemis_series_3_in_1_combo_1_2_e_commerce_aea8.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "86093"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Gaming Mouse Lilac",
+        "sku": "000000000010292467",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-gaming-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1_ecommerce_da5a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412377"
+      },
+      {
+        "name": "Logitech G102 LIGHTSYNC Mouse Blue",
+        "sku": "000000000010292474",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g102-lightsync-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1__2__ecommerce_b244.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1412381"
+      },
+      {
+        "name": "Logitech Cloth G240 Gaming Mouse Pad",
+        "sku": "000000000010288943",
+        "final_price": "R349",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-cloth-g240-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/g/2/g240___1_ecommerce_b50c.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1409033"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gam Mouse Lilac",
+        "sku": "000000000010300031",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gam-mouse-lilac",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_lilac_1_ecommerce_edc7.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419442"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Blue",
+        "sku": "000000000010300035",
+        "final_price": "R399",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-blue",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_blue_1_ecommerce_d797.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419444"
+      },
+      {
+        "name": "VX Gaming Heracles Series 4-in-1 Combo",
+        "sku": "000000000010175937",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/vx-gaming-heracles-series-4-in-1-combo",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_147_bk_vx_gaming_heracles_series_4_in_1_combo_kb_mouse_pad_headset_1_1__1__e_1bb2.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "82874"
+      },
+      {
+        "name": "Redragon M810 TAIPAN PRO Wireless Gaming Mouse",
+        "sku": "000000000010293981",
+        "final_price": "R449",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m810-taipan-pro-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_m810rgb_pro_wr_01_ecommerce_7b78.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1414179"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse Black",
+        "sku": "000000000010300034",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_black_1_ecommerce_61ff.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419443"
+      },
+      {
+        "name": "Logitech G203 LIGHTSYNC Gaming Mouse White",
+        "sku": "000000000010300040",
+        "final_price": "R499",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g203-lightsync-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g203_white_1_ecommerce_933b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1419448"
+      },
+      {
+        "name": "VolkanoG Arc SL Wireless Gaming Mouse",
+        "sku": "000000000010324542",
+        "final_price": "R499",
+        "old_price": "R599",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-sl-wireless-gaming-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_202_bk.1_ecommerce_6dca.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427574"
+      },
+      {
+        "name": "Logitech G502 Hero Mouse",
+        "sku": "000000000010119430",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/logitech-g502-hero-mouse",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10119430_ecommerce_9969.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "25765"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse Black",
+        "sku": "000000000010324571",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_bk.1_ecommerce_2123.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427597"
+      },
+      {
+        "name": "VolkanoG Arc UltraLight Wireless Gaming Mouse White",
+        "sku": "000000000010324618",
+        "final_price": "R599",
+        "old_price": "R699",
+        "promo": "Yes",
+        "product_url": "https://www.incredible.co.za/volkanog-arc-ultralight-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_201_wt__1__ecommerce_9c6a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1427608"
+      },
+      {
+        "name": "Logitech G840 XL Gaming Mouse Pad",
+        "sku": "000000000010133259",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/logitech-g840-xl-gaming-mouse-pad",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/l/o/logitech_g840_ecommerce_f9f0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "80881"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse - Pink",
+        "sku": "000000000010301502",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-pink",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721976_rd_m916p_pro_1k_02_ecommerce_dc1d.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420955"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 White",
+        "sku": "000000000010301543",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-white",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721969_rd_m916w_pro_1k_01_ecommerce_91b3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1420962"
+      },
+      {
+        "name": "Redragon M916 Pro 1K Wireless Gaming Mouse \u2013 Black",
+        "sku": "000000000010301593",
+        "final_price": "R799",
+        "old_price": "",
+        "promo": "No",
+        "product_url": "https://www.incredible.co.za/redragon-m916-pro-1k-wireless-gaming-mouse-black",
+        "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376721952_rd_m916_pro1_k_ecommerce_c578.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+        "source_product_id": "1421022"
+      }
+    ]
+  },
+  {
+    "scraper": "firecrawl",
+    "status": "skipped",
+    "elapsed_seconds": 0.0,
+    "product_count": 0,
+    "field_score": 0.0,
+    "notes": "Skipped: FIRECRAWL_API_KEY is not set.",
+    "products": []
+  }
+]

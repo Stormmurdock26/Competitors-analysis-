@@ -1,0 +1,511 @@
+{
+  "source_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc",
+  "pages": [
+    {
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc",
+      "status_code": 200,
+      "products_on_page": 35,
+      "new_products": 35,
+      "skipped_reason": ""
+    },
+    {
+      "page_number": 2,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc&p=2",
+      "status_code": 200,
+      "products_on_page": 0,
+      "new_products": 0,
+      "skipped_reason": ""
+    },
+    {
+      "page_number": 3,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc&p=3",
+      "status_code": 200,
+      "products_on_page": 0,
+      "new_products": 0,
+      "skipped_reason": ""
+    }
+  ],
+  "products": [
+    {
+      "name": "Redragon Ares Gaming Headset",
+      "sku": "000000000010117879",
+      "final_price": "R149",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/catalog/product/view/id/26884/category/367554/",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10117879_ecommerce_f2de.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "26884",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Redragon Over-Ear ARES Aux RGB Gaming Headset \u2013 Black",
+      "sku": "000000000010303095",
+      "final_price": "R179",
+      "old_price": "R269",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/redragon-over-ear-ares-aux-rgb-gaming-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376708717_h120_rgb_1__2__ecommerce_9721.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1422546",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "VX Gaming Blaze Series Gaming Headset",
+      "sku": "000000000010296493",
+      "final_price": "R249",
+      "old_price": "R349",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/vx-gaming-blaze-series-gaming-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_241_bk_ecommerce_f12d.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1416549",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Redragon Over-Ear Hylas Gaming Headset",
+      "sku": "000000000010296934",
+      "final_price": "R249",
+      "old_price": "R329",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/redragon-over-ear-hylas-gaming-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_h260rgb_wr_01_ecommerce_1e14.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1416990",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Redragon SCREAM Over-Ear RGB Gaming Headset \u2013 Black",
+      "sku": "000000000010303115",
+      "final_price": "R249",
+      "old_price": "R399",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/redragon-scream-over-ear-rgb-gaming-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376719317_h231rgb_4__4__ecommerce_2e0e.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1422562",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Redragon THEMIS 3.5mm2.0 Boom Mic Gaming Headset \u2013 Black",
+      "sku": "000000000010144081",
+      "final_price": "R299",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/redragon-themis-3-5mm2-0-boom-mic-gaming-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_h220n_wr_01_ecommerce_5749.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "82037",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Turtle Beach Recon 50 Neon Blue and Red Wired Headset",
+      "sku": "000000000010302565",
+      "final_price": "R349",
+      "old_price": "R499",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/turtle-beach-recon-50-neon-blue-and-red-wired-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/r/e/recon_50_multiplatform_box_side_1_ecommerce_7b56.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1422009",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "VolkanoG Solace Wired Gaming Headphones",
+      "sku": "000000000010324634",
+      "final_price": "R349",
+      "old_price": "R399",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/volkanog-solace-wired-gaming-headphones",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_223_bk.2_ecommerce_bcee.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1427614",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Maverick Series Gaming Headset",
+      "sku": "000000000010296523",
+      "final_price": "R399",
+      "old_price": "R549",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/maverick-series-gaming-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_243_bk_ecommerce_c0fc.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1416594",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Trust Gaming GXT415 Zirox Wired Gaming Headset Black",
+      "sku": "000000000010301517",
+      "final_price": "R399",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/trust-gaming-gxt415-zirox-wired-gaming-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/2/4/24990_pictures_product_visual_1_ecommerce_3023.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1420958",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Redragon SCREAM Over-Ear RGB Gaming Headset \u2013 White",
+      "sku": "000000000010303116",
+      "final_price": "R399",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/redragon-scream-over-ear-rgb-gaming-headset-white",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376719324_h231w_rgb_1__1__ecommerce_a50c.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1422563",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Logitech H390 Black USB Stereo Headset",
+      "sku": "000000000010113386",
+      "final_price": "R449",
+      "old_price": "R799",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/logitech-h390-black-usb-stereo-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/1/0/10113386_inc_ecommerce_17fb.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "55409",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Redragon PANDORA USB+3.5mm Aux | Vitrual 7.1 | RGB Gaming Headset",
+      "sku": "000000000010266849",
+      "final_price": "R499",
+      "old_price": "R599",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/redragon-pandora-usb-3-5mm-aux-vitrual-7-1-rgb-gaming-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_h350rgb_1_wr_03_ecommerce_322c.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "763416",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Redragon 4-in-1 Gaming Keyboard Combo",
+      "sku": "000000000010310821",
+      "final_price": "R599",
+      "old_price": "R899",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/redragon-4-in-1-gaming-keyboard-combo",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/r/d/rd_s148_redragon_4in1_gaming_combo_wr_01_ecommerce_8cf3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1425303",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Turtle Beach Recon 70 PC Wired Headset",
+      "sku": "000000000010302357",
+      "final_price": "R599",
+      "old_price": "R699",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/turtle-beach-recon-70-pc-wired-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/t/u/turtle_beach_recon_70_3_ecommerce_c3ad.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1421850",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Redragon AURORA Over-Ear Gaming Headset \u2013 Black",
+      "sku": "000000000010303090",
+      "final_price": "R649",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/redragon-aurora-over-ear-gaming-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/6/9/6950376720399_rd_h376br__4__ecommerce_ddd3.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1422542",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "VX Stealth Series Wireless Headset",
+      "sku": "000000000010296494",
+      "final_price": "R799",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/vx-stealth-series-wireless-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/v/x/vx_244_bk_ecommerce_a01a.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1416550",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "JBL QUANTUM 100M2 Wired over-ear gaming headset -Cyan",
+      "sku": "000000000010300013",
+      "final_price": "R799",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/jbl-quantum-100m2-wired-over-ear-gaming-headset-cyan",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/q/1/q100_m2_cyan__2__ecommerce_3d51.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1419379",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "JBL QUANTUM 100M2 Wired over-ear gaming headset - Purple",
+      "sku": "000000000010300064",
+      "final_price": "R799",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/jbl-quantum-100m2-wired-over-ear-gaming-headset-purple",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/q/1/q100_m2_purple__4__ecommerce_3676.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1419454",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "JBL Quantum 100M2 Wired Over-Ear Gaming Headset Black",
+      "sku": "000000000010303629",
+      "final_price": "R799",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/jbl-quantum-100m2-wired-over-ear-gaming-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/j/b/jbl_quantum_100m2_product_image_angle_black_ecommerce_ca72.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1423032",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "VolkanoG Helm X1 Pro Wireless Gaming Headphones",
+      "sku": "000000000010324633",
+      "final_price": "R899",
+      "old_price": "R999",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/volkanog-helm-x1-pro-wireless-gaming-headphones",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/v/g/vg_222_bk.1_ecommerce_1d2b.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1427613",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Razer Kraken X Lite",
+      "sku": "000000000010266618",
+      "final_price": "R999",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/razer-kraken-x-lite",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/r/a/razer___kraken_x_lite_ecommerce_dc91.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "762368",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Logitech G335 Wired Gaming Headset Blk",
+      "sku": "000000000010267675",
+      "final_price": "R999",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/logitech-g335-wired-gaming-headset-blk",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/g/3/g335_ecommerce_c345.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "776406",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Logitech G335 Wired Gaming Headset White",
+      "sku": "000000000010267676",
+      "final_price": "R999",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/logitech-g335-wired-gaming-headset-white",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/h/i/high_res_981_001018_logitech_g335_wired_gaming_headset__7_1____white_01_e_comme_6f56.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "776407",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Logitech G435 Wireless Gaming Headset Black",
+      "sku": "000000000010275090",
+      "final_price": "R1 299",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/logitech-g435-wireless-gaming-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/9/8/981_001050__1__ecommerce_7ff1.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1267714",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Logitech G435 Wireless Gaming Headset White",
+      "sku": "000000000010277048",
+      "final_price": "R1 499",
+      "old_price": "R1 799",
+      "promo": "Yes",
+      "product_url": "https://www.incredible.co.za/logitech-g435-wireless-gaming-headset-white",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/9/8/981_001074_ecommerce_3ce9.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1335760",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Razer BlackShark V2 X Wired Gaming Headset \u2013 Black",
+      "sku": "000000000010268806",
+      "final_price": "R1 499",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/razer-blackshark-v2-x-wired-gaming-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/r/z/rzr_blackshark_v2_x__render__v01_e_commerce_5628.jpg?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "832994",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Razer Blackshark V2 X - Quartz",
+      "sku": "000000000010294017",
+      "final_price": "R1 499",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/razer-blackshark-v2-x-quartz",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/b/l/blackshark_v2_x_quartz__2022__render__1__ecommerce_f7d8.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1414196",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Razer BlackShark V2 X Wired Gaming Headset \u2013 Green",
+      "sku": "000000000010283393",
+      "final_price": "R1 499",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/razer-blackshark-v2-x-wired-gaming-headset-green",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/r/z/rz04_03240600_r3m1_ecommerce_4616.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1398018",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Logitech G733 Wireless RGB Gaming Headset White",
+      "sku": "000000000010133217",
+      "final_price": "R2 999",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/logitech-g733-wireless-rgb-gaming-headset-white",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/h/i/high_resolution_png_g733_sob_white_e_commerce_removebg_preview_ecommerce_d3a0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "80873",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Logitech G733 Wireless RGB Gaming Headset Black",
+      "sku": "000000000010133150",
+      "final_price": "R2 999",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/logitech-g733-wireless-rgb-gaming-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/1/_/1_black_ecommerce_d073.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "80812",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Razer Barracuda Multiplatform Headset",
+      "sku": "000000000010302360",
+      "final_price": "R3 999",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/razer-barracuda-multiplatform-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/b/a/barracuda_1_ecommerce_a8e0.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1421853",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Razer BlackShark V2 Pro Headset White",
+      "sku": "000000000010302370",
+      "final_price": "R4 499",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/razer-blackshark-v2-pro-headset-white",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/b/l/blackshark_v2_pro_white__2023__render__4__ecommerce_2746.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1421901",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Razer BlackShark V2 Pro Headset Black",
+      "sku": "000000000010302399",
+      "final_price": "R4 499",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/razer-blackshark-v2-pro-headset-black",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/b/l/blackshark_v2_pro__2023__render__6__ecommerce_ee4c.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1421902",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    },
+    {
+      "name": "Razer Kraken Kitty V2 Pro Headset",
+      "sku": "000000000010302361",
+      "final_price": "R4 899",
+      "old_price": "",
+      "promo": "No",
+      "product_url": "https://www.incredible.co.za/razer-kraken-kitty-v2-pro-headset",
+      "image_url": "https://www.incredible.co.za/api/catalog/product/r/a/razer_kraken_kitty_edition_v2_pro__2022__kitty_render_02_ecommerce_6657.png?width=184&height=184&store=incredibleconnection&image-type=small_image",
+      "source_product_id": "1421854",
+      "page_number": 1,
+      "page_url": "https://www.incredible.co.za/products/gaming/accessories?cat=367561&product_list_dir=asc"
+    }
+  ],
+  "brand_counts": {
+    "Redragon": 9,
+    "Razer": 8,
+    "Logitech": 7,
+    "JBL": 3,
+    "VX Gaming": 2,
+    "Turtle Beach": 2,
+    "VolkanoG": 2,
+    "Maverick": 1,
+    "Trust": 1
+  },
+  "category_counts": {
+    "Wired headsets": 27,
+    "Wireless headsets": 6,
+    "Combos": 2
+  },
+  "brand_category_counts": {
+    "JBL": {
+      "Wired headsets": 3
+    },
+    "Logitech": {
+      "Wireless headsets": 4,
+      "Wired headsets": 3
+    },
+    "Maverick": {
+      "Wired headsets": 1
+    },
+    "Razer": {
+      "Wired headsets": 7,
+      "Combos": 1
+    },
+    "Redragon": {
+      "Wired headsets": 8,
+      "Combos": 1
+    },
+    "Trust": {
+      "Wired headsets": 1
+    },
+    "Turtle Beach": {
+      "Wired headsets": 2
+    },
+    "VX Gaming": {
+      "Wired headsets": 1,
+      "Wireless headsets": 1
+    },
+    "VolkanoG": {
+      "Wired headsets": 1,
+      "Wireless headsets": 1
+    }
+  },
+  "validation": {
+    "product_count": 35,
+    "brand_total": 35,
+    "category_total": 35,
+    "unknown_brand_count": 0,
+    "uncategorized_count": 0,
+    "all_products_have_brand": true,
+    "all_products_have_category": true,
+    "is_valid": true
+  }
+}
