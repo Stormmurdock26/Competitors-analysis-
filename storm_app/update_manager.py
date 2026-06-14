@@ -19,7 +19,7 @@ DEFAULT_UPDATE_SETTINGS = {
     "github_owner": "Stormmurdock26",
     "github_repo": "Competitors-analysis-",
     "repository_url": "https://github.com/Stormmurdock26/Competitors-analysis-.git",
-    "installer_asset_contains": "installer",
+    "installer_asset_contains": ".exe",
 }
 
 
@@ -32,6 +32,7 @@ class UpdateStatus:
     release_url: str
     message: str
     latest_ref: str = ""
+    download_url: str = ""
 
 
 def load_app_settings(path: Path = APP_SETTINGS_PATH) -> dict:
@@ -46,6 +47,9 @@ def load_app_settings(path: Path = APP_SETTINGS_PATH) -> dict:
         if key not in updates:
             updates[key] = value
             changed = True
+    if str(updates.get("installer_asset_contains", "")).casefold() == "installer":
+        updates["installer_asset_contains"] = ".exe"
+        changed = True
     if changed:
         path.write_text(json.dumps(data, indent=2), encoding="utf-8")
     return data
@@ -62,7 +66,19 @@ def check_for_updates(settings_path: Path = APP_SETTINGS_PATH) -> UpdateStatus:
     if not owner or not repo:
         return UpdateStatus(True, False, APP_VERSION, "", "", "GitHub update repository is not configured.")
 
-    latest, release_url, source, latest_ref = latest_published_version(owner, repo)
+    asset_filter = str(settings.get("installer_asset_contains", "")).strip()
+    try:
+        latest, release_url, source, latest_ref, download_url = latest_published_version(owner, repo, asset_filter)
+    except requests.RequestException as exc:
+        location = repo_url or f"https://github.com/{owner}/{repo}"
+        return UpdateStatus(
+            True,
+            False,
+            APP_VERSION,
+            "",
+            location,
+            f"Update check failed: {exc}",
+        )
     if not latest:
         location = repo_url or f"https://github.com/{owner}/{repo}"
         return UpdateStatus(
@@ -75,15 +91,16 @@ def check_for_updates(settings_path: Path = APP_SETTINGS_PATH) -> UpdateStatus:
         )
     available = compare_versions(latest, APP_VERSION) > 0
     message = f"Version {latest} is available from GitHub {source}." if available else "Application is up to date."
-    return UpdateStatus(True, available, APP_VERSION, latest, release_url, message, latest_ref)
+    return UpdateStatus(True, available, APP_VERSION, latest, release_url, message, latest_ref, download_url)
 
 
-def latest_published_version(owner: str, repo: str) -> tuple[str, str, str, str]:
+def latest_published_version(owner: str, repo: str, asset_filter: str = "") -> tuple[str, str, str, str, str]:
     release_response = github_get(f"https://api.github.com/repos/{owner}/{repo}/releases/latest")
     if release_response.status_code == 200:
         release = release_response.json()
         tag_name = str(release.get("tag_name", ""))
-        return tag_name.lstrip("v"), str(release.get("html_url", "")), "release", tag_name
+        download_url = release_download_url(release, asset_filter)
+        return tag_name.lstrip("v"), str(release.get("html_url", "")), "release", tag_name, download_url
     if release_response.status_code not in {404, 403}:
         release_response.raise_for_status()
 
@@ -93,19 +110,47 @@ def latest_published_version(owner: str, repo: str) -> tuple[str, str, str, str]
         if isinstance(tags, list) and tags:
             tag = tags[0]
             tag_name = str(tag.get("name", ""))
-            return tag_name.lstrip("v"), f"https://github.com/{owner}/{repo}/releases/tag/{tag_name}", "tag", tag_name
-        return "", "", "", ""
+            return (
+                tag_name.lstrip("v"),
+                f"https://github.com/{owner}/{repo}/releases/tag/{tag_name}",
+                "tag",
+                tag_name,
+                "",
+            )
+        return "", "", "", "", ""
     if tags_response.status_code == 404:
-        return "", "", "", ""
+        return "", "", "", "", ""
     tags_response.raise_for_status()
-    return "", "", "", ""
+    return "", "", "", "", ""
 
 
 def github_get(url: str) -> requests.Response:
     return requests.get(url, headers={"Accept": "application/vnd.github+json"}, timeout=15)
 
 
+def release_download_url(release: dict, asset_filter: str = "") -> str:
+    assets = release.get("assets", [])
+    if not isinstance(assets, list):
+        return ""
+    normalized_filter = asset_filter.casefold()
+    for asset in assets:
+        if not isinstance(asset, dict):
+            continue
+        name = str(asset.get("name", ""))
+        download_url = str(asset.get("browser_download_url", ""))
+        if not download_url:
+            continue
+        if normalized_filter and normalized_filter in name.casefold():
+            return download_url
+        if not normalized_filter and name.casefold().endswith(".exe"):
+            return download_url
+    return ""
+
+
 def start_self_update(status: UpdateStatus) -> Path:
+    if status.download_url:
+        return start_binary_update(status)
+
     repo_root = find_repo_root()
     exe_path = repo_root / "dist" / "Storm Competitor Analysis.exe"
     if not exe_path.exists():
@@ -149,6 +194,50 @@ def start_self_update(status: UpdateStatus) -> Path:
         subprocess.Popen(
             command,
             cwd=str(repo_root),
+            stdout=log_file,
+            stderr=subprocess.STDOUT,
+            stdin=subprocess.DEVNULL,
+            creationflags=flags,
+            close_fds=True,
+        )
+    return log_path
+
+
+def start_binary_update(status: UpdateStatus) -> Path:
+    exe_path = Path(sys.executable).resolve() if getattr(sys, "frozen", False) else ROOT / "dist" / "Storm Competitor Analysis.exe"
+    install_root = exe_path.parent
+    log_path = install_root / "storm_update.log"
+    bootstrap_log_path = install_root / "storm_update_bootstrap.log"
+    script_path = install_root / "storm_update_runner.ps1"
+    script_path.write_text(binary_update_runner_script(), encoding="utf-8")
+    log_path.write_text(f"Binary updater launch requested for {status.latest_ref}.\n", encoding="utf-8")
+    bootstrap_log_path.write_text("Binary updater process launch output.\n", encoding="utf-8")
+    powershell_exe = Path(os.environ.get("SystemRoot", r"C:\Windows")) / "System32" / "WindowsPowerShell" / "v1.0" / "powershell.exe"
+    if not powershell_exe.exists():
+        powershell_exe = Path("powershell")
+    command = [
+        str(powershell_exe),
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        str(script_path),
+        "-ExePath",
+        str(exe_path),
+        "-ParentPid",
+        str(os.getpid()),
+        "-DownloadUrl",
+        status.download_url,
+        "-LogPath",
+        str(log_path),
+    ]
+    flags = 0
+    if os.name == "nt":
+        flags = subprocess.CREATE_NEW_PROCESS_GROUP | subprocess.CREATE_NO_WINDOW
+    with bootstrap_log_path.open("a", encoding="utf-8") as log_file:
+        subprocess.Popen(
+            command,
+            cwd=str(install_root),
             stdout=log_file,
             stderr=subprocess.STDOUT,
             stdin=subprocess.DEVNULL,
@@ -208,6 +297,47 @@ try {
         Write-UpdateLog "Built app version marker missing."
     }
     Write-UpdateLog "Launching rebuilt application."
+    Start-Process -FilePath $ExePath
+    Write-UpdateLog "Update completed."
+} catch {
+    Write-UpdateLog ("Update failed: " + $_.Exception.Message)
+    throw
+}
+'''
+
+
+def binary_update_runner_script() -> str:
+    return r'''param(
+    [Parameter(Mandatory=$true)][string]$ExePath,
+    [Parameter(Mandatory=$true)][int]$ParentPid,
+    [Parameter(Mandatory=$true)][string]$DownloadUrl,
+    [Parameter(Mandatory=$true)][string]$LogPath
+)
+$ErrorActionPreference = "Stop"
+function Write-UpdateLog([string]$Message) {
+    $stamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Add-Content -Path $LogPath -Value "[$stamp] $Message"
+}
+try {
+    $installRoot = Split-Path -Parent $ExePath
+    $downloadPath = Join-Path $installRoot "Storm Competitor Analysis.exe.update"
+    $backupPath = Join-Path $installRoot "Storm Competitor Analysis.exe.bak"
+    Write-UpdateLog "Downloading update from $DownloadUrl"
+    Invoke-WebRequest -Uri $DownloadUrl -OutFile $downloadPath -UseBasicParsing
+    if (-not (Test-Path $downloadPath)) {
+        throw "Download did not create $downloadPath"
+    }
+    Write-UpdateLog "Waiting for application process $ParentPid to exit."
+    Wait-Process -Id $ParentPid -ErrorAction SilentlyContinue
+    Start-Sleep -Seconds 1
+    if (Test-Path $backupPath) {
+        Remove-Item $backupPath -Force
+    }
+    if (Test-Path $ExePath) {
+        Move-Item -LiteralPath $ExePath -Destination $backupPath -Force
+    }
+    Move-Item -LiteralPath $downloadPath -Destination $ExePath -Force
+    Write-UpdateLog "Launching updated application."
     Start-Process -FilePath $ExePath
     Write-UpdateLog "Update completed."
 } catch {

@@ -407,10 +407,19 @@ class MainWindow(QMainWindow):
             self.update_status.setText(f"Updates: {status.message}")
             self.log_message(f"Update status: {status.message}")
             if status.update_available:
+                if getattr(sys, "frozen", False) and not status.download_url:
+                    message = (
+                        "A newer version exists, but the GitHub release does not include a downloadable .exe asset. "
+                        "Publish the release executable asset, then check for updates again."
+                    )
+                    self.log_message(f"Update blocked: {message}")
+                    QMessageBox.warning(self, "Update unavailable", message)
+                    return
+                action = "download, install, and reopen" if status.download_url else "close, rebuild, and reopen"
                 answer = QMessageBox.question(
                     self,
                     "Update available",
-                    f"{status.message}\n\n{status.release_url}\n\nUpdate now? The app will close, rebuild, and reopen.",
+                    f"{status.message}\n\n{status.release_url}\n\nUpdate now? The app will {action}.",
                     QMessageBox.Yes | QMessageBox.No,
                     QMessageBox.No,
                 )

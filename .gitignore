@@ -17,6 +17,8 @@ venv/
 build/
 dist/
 *.spec
+release/*.exe
+release/*.msi
 
 # App runtime files
 storm_comp_analysis.log

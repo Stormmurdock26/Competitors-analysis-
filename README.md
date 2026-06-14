@@ -189,9 +189,9 @@ https://github.com/Stormmurdock26/Competitors-analysis-.git
 
 The checker looks for the latest GitHub release first, then falls back to the latest tag. Publish versions as tags/releases such as `v0.1.1`, `v0.2.0`, etc. If the repo has no release or tag yet, the app logs a clear "No GitHub release or version tag has been published yet." message instead of failing with a generic HTTP error.
 
-When a newer version is found, the app asks whether to update now. If accepted, it writes `storm_update_runner.ps1`, closes the running app, fetches the target tag from `origin`, rebuilds the executable with `scripts/build_exe.ps1`, and relaunches `dist/Storm Competitor Analysis.exe`. The helper writes progress and errors to `storm_update.log`.
+For deployed/exe-only installs, every released version must have a GitHub Release asset containing the rebuilt `Storm Competitor Analysis.exe`. The executable is a release artifact only; it is ignored by git and must not be committed to the repository. When a newer release has a downloadable `.exe` asset, the app downloads that asset beside the running executable, closes the app, swaps in the new executable, and relaunches it. The helper writes progress and errors to `storm_update.log`.
 
-For the update flow to work, the local folder must remain a git clone of the update repo and these tools must be available on the machine:
+For development/source folders, the updater still has a fallback path that can fetch the target tag from `origin`, rebuild with `scripts/build_exe.ps1`, and relaunch `dist/Storm Competitor Analysis.exe`. That fallback requires the local folder to remain a git clone of the update repo and these tools must be available on the machine:
 
 ```powershell
 git --version
@@ -203,6 +203,12 @@ The GitHub CLI is installed on this machine, but it still needs authentication b
 
 ```powershell
 gh auth login
+```
+
+Create or update a release asset after building a version with:
+
+```powershell
+& "C:\Program Files\GitHub CLI\gh.exe" release create v0.1.3 ".\dist\Storm Competitor Analysis.exe" --repo Stormmurdock26/Competitors-analysis- --title "v0.1.3" --notes "Release v0.1.3"
 ```
 
 Packaging notes:
@@ -217,7 +223,7 @@ Packaging notes:
 
 - The generated executable is written to `dist\Storm Competitor Analysis.exe`.
 - The `.exe`, `build`, and `.spec` outputs are ignored by git and should be rebuilt locally or by a release workflow.
-- The production installer flow still needs the next implementation pass: a proper installer wrapper and release asset download/install for machines that do not keep the source repo locally.
+- A minimal handoff to another Windows PC is a folder containing only `Storm Competitor Analysis.exe`; the app creates its runtime folders/config on first launch and updates from GitHub Release executable assets.
 
 ## Local Feature Alignment LLM
 
