@@ -268,6 +268,12 @@ function Write-UpdateLog([string]$Message) {
     $stamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     Add-Content -Path $LogPath -Value "[$stamp] $Message"
 }
+function Reset-PyInstallerEnvironment {
+    $env:PYINSTALLER_RESET_ENVIRONMENT = "1"
+    foreach ($name in @("_PYI_APPLICATION_HOME_DIR", "_PYI_ARCHIVE_FILE", "_PYI_PARENT_PROCESS_LEVEL", "_PYI_SPLASH_IPC")) {
+        Remove-Item -Path ("Env:\" + $name) -ErrorAction SilentlyContinue
+    }
+}
 try {
     Write-UpdateLog "Waiting for application process $ParentPid to exit."
     Wait-Process -Id $ParentPid -ErrorAction SilentlyContinue
@@ -297,6 +303,7 @@ try {
         Write-UpdateLog "Built app version marker missing."
     }
     Write-UpdateLog "Launching rebuilt application."
+    Reset-PyInstallerEnvironment
     Start-Process -FilePath $ExePath
     Write-UpdateLog "Update completed."
 } catch {
@@ -318,6 +325,12 @@ function Write-UpdateLog([string]$Message) {
     $stamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     Add-Content -Path $LogPath -Value "[$stamp] $Message"
 }
+function Reset-PyInstallerEnvironment {
+    $env:PYINSTALLER_RESET_ENVIRONMENT = "1"
+    foreach ($name in @("_PYI_APPLICATION_HOME_DIR", "_PYI_ARCHIVE_FILE", "_PYI_PARENT_PROCESS_LEVEL", "_PYI_SPLASH_IPC")) {
+        Remove-Item -Path ("Env:\" + $name) -ErrorAction SilentlyContinue
+    }
+}
 try {
     $installRoot = Split-Path -Parent $ExePath
     $downloadPath = Join-Path $installRoot "Storm Competitor Analysis.exe.update"
@@ -338,6 +351,7 @@ try {
     }
     Move-Item -LiteralPath $downloadPath -Destination $ExePath -Force
     Write-UpdateLog "Launching updated application."
+    Reset-PyInstallerEnvironment
     Start-Process -FilePath $ExePath
     Write-UpdateLog "Update completed."
 } catch {

@@ -210,7 +210,7 @@ Release builds are automated through `.github/workflows/release.yml`. When a `v*
 Manual release asset creation is only needed if the workflow is unavailable:
 
 ```powershell
-& "C:\Program Files\GitHub CLI\gh.exe" release create v0.1.8 ".\dist\Storm Competitor Analysis.exe" --repo Stormmurdock26/Competitors-analysis- --title "v0.1.8" --notes "Release v0.1.8"
+& "C:\Program Files\GitHub CLI\gh.exe" release create v0.1.9 ".\dist\Storm Competitor Analysis.exe" --repo Stormmurdock26/Competitors-analysis- --title "v0.1.9" --notes "Release v0.1.9"
 ```
 
 Packaging notes:
