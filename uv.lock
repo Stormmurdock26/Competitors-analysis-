@@ -362,7 +362,7 @@ wheels = [
 
 [[package]]
 name = "storm-comp-analysis"
-version = "0.1.7"
+version = "0.1.8"
 source = { editable = "." }
 dependencies = [
     { name = "beautifulsoup4" },
