@@ -205,7 +205,9 @@ The GitHub CLI is installed on this machine, but it still needs authentication b
 gh auth login
 ```
 
-Create or update a release asset after building a version with:
+Release builds are automated through `.github/workflows/release.yml`. When a `v*` tag is pushed, GitHub Actions builds `dist\Storm Competitor Analysis.exe` from source and attaches it to the GitHub Release. That release asset is what deployed exe-only installs download during self-update.
+
+Manual release asset creation is only needed if the workflow is unavailable:
 
 ```powershell
 & "C:\Program Files\GitHub CLI\gh.exe" release create v0.1.6 ".\dist\Storm Competitor Analysis.exe" --repo Stormmurdock26/Competitors-analysis- --title "v0.1.6" --notes "Release v0.1.6"
