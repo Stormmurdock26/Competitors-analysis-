@@ -21,6 +21,7 @@ dist/
 # App runtime files
 storm_comp_analysis.log
 storm_update.log
+storm_update_bootstrap.log
 storm_update_runner.ps1
 scraper_outputs/app_selected_links.txt
 scraper_outputs/embedded_images/*.png

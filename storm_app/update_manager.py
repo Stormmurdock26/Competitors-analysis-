@@ -115,11 +115,18 @@ def start_self_update(status: UpdateStatus) -> Path:
     if not (repo_root / "scripts" / "build_exe.ps1").exists():
         raise RuntimeError(f"Cannot update because build script is missing from {repo_root}.")
 
-    log_path = ROOT / "storm_update.log"
-    script_path = ROOT / "storm_update_runner.ps1"
+    log_path = repo_root / "storm_update.log"
+    bootstrap_log_path = repo_root / "storm_update_bootstrap.log"
+    script_path = repo_root / "storm_update_runner.ps1"
     script_path.write_text(update_runner_script(), encoding="utf-8")
+    log_path.write_text(f"Updater launch requested for {status.latest_ref or 'current branch'}.\n", encoding="utf-8")
+    bootstrap_log_path.write_text("Updater process launch output.\n", encoding="utf-8")
+    powershell_exe = Path(os.environ.get("SystemRoot", r"C:\Windows")) / "System32" / "WindowsPowerShell" / "v1.0" / "powershell.exe"
+    if not powershell_exe.exists():
+        powershell_exe = Path("powershell")
     command = [
-        "powershell",
+        str(powershell_exe),
+        "-NoProfile",
         "-ExecutionPolicy",
         "Bypass",
         "-File",
@@ -130,15 +137,24 @@ def start_self_update(status: UpdateStatus) -> Path:
         str(exe_path),
         "-ParentPid",
         str(os.getpid()),
-        "-TargetRef",
-        status.latest_ref,
         "-LogPath",
         str(log_path),
     ]
+    if status.latest_ref:
+        command.extend(["-TargetRef", status.latest_ref])
     flags = 0
     if os.name == "nt":
-        flags = subprocess.CREATE_NEW_PROCESS_GROUP | subprocess.DETACHED_PROCESS
-    subprocess.Popen(command, cwd=str(repo_root), creationflags=flags)
+        flags = subprocess.CREATE_NEW_PROCESS_GROUP | subprocess.CREATE_NO_WINDOW
+    with bootstrap_log_path.open("a", encoding="utf-8") as log_file:
+        subprocess.Popen(
+            command,
+            cwd=str(repo_root),
+            stdout=log_file,
+            stderr=subprocess.STDOUT,
+            stdin=subprocess.DEVNULL,
+            creationflags=flags,
+            close_fds=True,
+        )
     return log_path
 
 
@@ -155,7 +171,7 @@ def update_runner_script() -> str:
     [Parameter(Mandatory=$true)][string]$RepoRoot,
     [Parameter(Mandatory=$true)][string]$ExePath,
     [Parameter(Mandatory=$true)][int]$ParentPid,
-    [Parameter(Mandatory=$true)][string]$TargetRef,
+    [AllowEmptyString()][string]$TargetRef = "",
     [Parameter(Mandatory=$true)][string]$LogPath
 )
 $ErrorActionPreference = "Stop"
@@ -177,7 +193,20 @@ try {
         git pull --ff-only origin *>> $LogPath
     }
     Write-UpdateLog "Rebuilding executable."
-    powershell -ExecutionPolicy Bypass -File (Join-Path $RepoRoot "scripts\build_exe.ps1") *>> $LogPath
+    $buildScript = Join-Path $RepoRoot "scripts\build_exe.ps1"
+    $powershellExe = Join-Path $PSHOME "powershell.exe"
+    $buildCommand = '"' + $powershellExe + '" -NoProfile -ExecutionPolicy Bypass -File "' + $buildScript + '" >> "' + $LogPath + '" 2>&1'
+    cmd.exe /d /s /c $buildCommand
+    $buildExitCode = $LASTEXITCODE
+    if ($buildExitCode -ne 0) {
+        throw "Build failed with exit code $buildExitCode."
+    }
+    $versionMarker = Join-Path $RepoRoot "dist\app_version.txt"
+    if (Test-Path $versionMarker) {
+        Write-UpdateLog ("Built app version marker: " + (Get-Content $versionMarker -Raw).Trim())
+    } else {
+        Write-UpdateLog "Built app version marker missing."
+    }
     Write-UpdateLog "Launching rebuilt application."
     Start-Process -FilePath $ExePath
     Write-UpdateLog "Update completed."
